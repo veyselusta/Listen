@@ -15,9 +15,9 @@ export default function App() {
 
       <input 
         type="text" 
-        placeholder="Super duper secret" /
+        placeholder="Super duper secret"
         onChange={keep}
-        >
+        />
 
         <button onClick={match}>click</button>
 
