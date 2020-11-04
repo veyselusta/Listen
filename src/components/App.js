@@ -14,12 +14,13 @@ export default function App() {
       <h2>What's the secret phrase?</h2>
 
       <input 
+        className="box"
         type="text" 
         placeholder="Super duper secret"
         onChange={keep}
         />
 
-        <button onClick={match}>click</button>
+        <button className="box" onClick={match}>click</button>
 
       <p>
         Hint: It's <strong>open sesame</strong>
